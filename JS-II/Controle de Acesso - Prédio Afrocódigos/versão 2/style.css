@@ -1,0 +1,117 @@
+
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    
+}
+
+header {
+ 
+    height: 20px;
+    background-color: blue;
+}
+
+.container {
+   
+    margin: 5% auto 0 10%;
+    padding: 10px;
+    
+}
+
+.container .img {
+    position: relative;
+    width: 484px;
+    height: 630px; /* Defina a altura que desejar */
+    background-image: url('imagens/layout_final2.fw.png');
+    background-size: cover;
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding-top: 200px; /* Ajuste conforme necessário */
+}
+
+#bemvindo {
+font-size: 32px;
+    font-family:"Berlin Sans FB Demi", "Belanosima",  sans-serif;
+
+}
+
+.controle_acesso {
+    font-family:"Berlin Sans FB Demi", "Belanosima",  sans-serif;
+}
+
+.login {
+    font-weight: bold;
+    height: 150px;
+    font-size: 16px;
+    margin-top: 60px;
+    
+
+}
+
+.Username {
+    margin-bottom: 20px;
+}
+
+.Username label {
+    margin-left: -230px;         
+    font-size: 16px;
+
+}
+
+.trilha label {
+
+    margin-left: -255px;    
+    font-size: 16px;
+  
+}
+
+.login #nome_usuario input{
+    
+    
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 5px;
+    
+}
+
+
+.trilha select{
+    
+    
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 5px;
+    margin-top: 0px;
+}
+
+
+
+.botao_acessar input {
+    font-size: 20px;
+    color: white;
+    font-family:"Berlin Sans FB Demi", "Belanosima",  sans-serif;
+    background-color: #793FA0;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding: 10px 100px ;
+}
+
+.botao_acessar input:hover, .botao_acessar input:focus{
+    background-color: #A977CA;
+}
+
+
+
+.login #nome_usuario input:hover, .login #nome_usuario input:focus,
+.login .trilha select:hover, .login .trilha select:focus {
+background-color: rgb(245, 234, 245);
+}
